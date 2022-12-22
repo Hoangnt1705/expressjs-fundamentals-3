@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(14, 166, 216), rgb(181, 210, 16));
+    background-repeat: no-repeat;
+}
+
+
+#container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#boxTodo {
+    width: 500px;
+    height: 800px;
+    background-color: #fff;
+
+}
+
+.inputPOST {
+    width: 60%;
+    height: 30px;
+    border: 2px solid rgb(151, 151, 151);
+}
+
+.button1 {
+    height: 35px;
+    width: 40px;
+}
+
+.wrapItem {
+    padding-top: 30px;
+}
+
+.item {
+    font-weight: 600;
+    background: rgb(182, 174, 174);
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+}
+
+.item:hover {
+    background: #d2d2d2;
+}
+
+.viewTotalItem {
+    float: left;
+    margin: 30px 10px 10px 30px;
+    font-style: italic;
+}
+
+.wrapButtonNextoViewTotal {
+    float: right;
+    margin: 30px 10px 10px 50px;
+    font-style: italic;
+}
+
+.buttonNextoViewTotal {
+    height: 40px;
+    width: 100px;
+    background: #d2d2d2;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+}
+
+.buttonNextoViewTotal:hover {
+    background: beige;
+    transition: 0.5s linear;
+}
+
+.update {
+    width: 100px;
+    margin-left: 50px;
+    background: rgb(11, 114, 57);
+    padding: 5px 5px 5px;
+    border-radius: 3px;
+}
+
+.delete {
+    width: 70px;
+    margin-left: 50px;
+    background: rgba(203, 71, 38, 0.944);
+    padding: 5px 5px 5px;
+    border-radius: 3px;
+}
+
+.update:hover {
+    background: rgb(8, 167, 80);
+
+}
+
+.delete:hover {
+    background: rgba(239, 28, 21, 0.944);
+
+}
+
+.recover {
+    width: 150px;
+    border: 2pt solid #c2c2c2;
+    background: #c2c2c2;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.recover:hover {
+    background: #d2d2d2;
+}
